@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+	<center>
+	
+	<h1>Practice Activity</h1>
+
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input id="user_name" type="text" placeholder="User Name...">
+		</div>
+
+		<div class="form-group">
+			<label >Age:</label>
+			<input id="age" type="number" placeholder="Age...">
+		  </div>
+
+		  <div class="form-group">
+			<label >Favorite Color:</label>
+			<input id="favorite_color" type="text" placeholder="Favorite Color...">
+		  </div>
+
+		  <div class="form-group">
+			<label >Favorite Animal:</label>
+			<input id="favorite_animal" type="text" placeholder="Favorite Animal...">
+		  </div>
+
+		  <div class="form-group">
+			<label >School Grade:</label>
+			<input id="school_grade" type="number" placeholder="School Grade...">
+		  </div>
+
+		  <div class="form-group">
+			<label >How Many Siblings?:</label>
+			<input id="sibling_count" type="number" placeholder="How Many Siblings...">
+		  </div>
+    
+  </div>
+    <br>
+	<br>
+  </div>
+		<button  id="button" style="margin-left: 650px;" class="btn btn-danger" onclick="addUser()">Add Info</button>
+
+	</center>
+
+</div>
+
+
+
+
+</body>
+</html>
